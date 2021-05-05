@@ -1,3 +1,13 @@
+# Building
+```
+npm run prepare
+```
+
+# Cleaning
+```
+npm run clean
+```
+
 # ion-sdk-js
 
 Frontend sdk for the Ion backend.

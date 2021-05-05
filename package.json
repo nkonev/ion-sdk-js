@@ -1,7 +1,7 @@
 {
   "name": "ion-sdk-js",
   "version": "1.7.0",
-  "description": "A js sdk for ion sfu",
+  "description": "A js sdk for ion sfu patched es2015 version",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -19,7 +19,8 @@
     "prepublishOnly": "npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "clean": "rm -rf ./dist/* ./lib/*"
   },
   "author": "pion",
   "license": "MIT",
